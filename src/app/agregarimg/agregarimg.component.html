@@ -1,0 +1,38 @@
+   <!-- formulario -->
+   <div class="row">
+    <div class="col">
+      <div class="card">
+          <div class="card-body">
+              <form action="">
+                <div class="form-group">
+                    <input type="text" name="nombre"  placeholder="cedula" [(ngModel)]="imag2.cedula" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="nombre"  placeholder="Nombre" [(ngModel)]="imag2.nombre" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="apellido"  placeholder="Apellido" [(ngModel)]="imag2.apellido" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="edad"  placeholder="Edad" [(ngModel)]="imag2.edad" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="nombre"  placeholder="Sexo" [(ngModel)]="imag2.sexo" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="nombre"  placeholder="Avatar" [(ngModel)]="imag2.avatar" class="form-control" autofocus>
+                </div>
+                <!-- se crea un evento click -->
+                <div class="modal-footer">
+                
+                    <button  class="btn btn-success btn-block" (click)="guardarImg()">
+                        Guardar</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+             
+              </form>
+          </div>
+      </div>
+  </div>
+  </div>
+  <!-- fin formulario -->
